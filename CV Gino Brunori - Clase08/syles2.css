@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url(img/beige-wooden-textured-flooring-background.jpg);
+    background-size: 500px;
+    background-repeat: round;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align:left;
+    font-size: 35px;
+    background-color: #FEECE9;
+    color: #FE7E6D;
+}
+
+footer {
+    background-color: #FF5151;
+    /* font-size: 20px; */
+}
+
