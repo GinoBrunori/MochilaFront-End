@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+header.descuentos {
+    background-color: #D1891C;
+    font-weight: bold;
+    width: 100vw;
+}
+
+header.descuentos p {
+    margin-left: 10px;
+    /* font-size: 15px; */
+    
+}
+
+main section.tituloPrincipal {
+    background-color: #00669F;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main section.tituloPrincipal h1 {
+    font-weight:500;
+}
+
+/* -- MAIN -- */
+
+/* -- SECTION CARDS --  */
+section.section-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.section-cards article.article-cards {
+    width: 270px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px;    
+}
+
+section.section-cards article.article-cards header.header-card {
+    position:relative;
+    margin-bottom: 70px;
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+}
+
+section.section-cards article.article-cards header.header-card .img-corazon {
+    position: absolute;
+    left:7px;
+    top: 7px;
+}
+
+section.section-cards article.article-cards header.header-card img.img-heroe {
+    width:120px;
+    border-radius: 100px;
+    position: relative;
+    left: 80px ;
+    bottom: -80px;
+    
+}
+
+section.section-cards article.article-cards header.header-card-batman {
+    background-image: url(img/baticueva.png);
+    background-size: cover;
+}
+
+section.section-cards article.article-cards header.header-card-superman {
+    background-image: url(img/fondoSuperman.png);
+    background-size: cover;
+}
+
+section.section-cards article.article-cards header.header-card-harley {
+    background-image: url(img/fondoHarleyQueen.png);
+    background-size: cover;
+}
+
+section.section-cards article.article-cards header.header-card-maravilla {
+    background-image: url(img/fondoMujerMaravilla.png);
+    background-size: cover;
+}
+
+
+/* -- DESCRIPCION -- */
+
+section.section-cards article.article-cards div.div-descripcion {
+    text-align: center;
+    
+    
+}
+section.section-cards article.article-cards div.div-descripcion h1#h1-heroe {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section.section-cards article.article-cards div.div-descripcion p.parrafo-descripcion {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0PX 20px 0px 20px;
+    margin-bottom: 20px;
+}
+
+section.section-cards article.article-cards div.div-descripcion button.boton-VerMas {
+    background-color: #00669F;
+    border: 1px solid #00669F;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+section.section-cards article.article-cards-harley {
+    display: none;
+}
+
+/* --FOOTER-- */
+footer {
+    background-color: #00669F;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+footer img {
+    width: 40px;
+    object-fit: contain;
+    /* height: 10px; */
+    position: relative;
+    right: 5px;
+    z-index: 2;
+}
+
+i.signomas {
+    position: absolute;
+    top: 530px;
+    right: 15px;
+    background-color: #00669F;
+    padding: 15px;
+    border-radius: 100%;
+    color: white;
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    section.section-cards article.article-cards-harley {
+        display: block;
+
+    }
+    section.section-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    section.section-cards article.article-cards {
+        width: 250px;
+        margin: 30px 20px 30px 20px;
+    }
+    
+}
+
+
